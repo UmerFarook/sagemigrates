@@ -454,11 +454,16 @@ video {
 	left: 0;
 	top: 0;
 	width: 100%;
-	z-index: 9;
+	z-index: 99;
+	
 	.navbar-brand {
 		margin: 0;
         .logo{
             max-width: 115px;
+
+			@media (max-width:580px) {
+				max-width: 75px;
+			}
         }
 	}
 	.navbar {
@@ -1612,12 +1617,15 @@ video {
 		.navbar {
 			.navbar-collapse {
 				position: absolute;
-				top: 116%;
+				top: 111%;
 				left: 0;
 				width: 100%;
 				background-color: $background-color_3;
 				z-index: 8;
 				padding: 10px 16px;
+				&.show{
+					border-bottom: #fff 2px solid;
+				}
 			}
 			.navbar-nav {
 				margin-right: 0;
@@ -1836,6 +1844,7 @@ video {
 				background-color: $background-color_3;
 				z-index: 8;
 				padding: 10px 16px;
+			
 			}
 			.navbar-nav {
 				margin-right: 0;
