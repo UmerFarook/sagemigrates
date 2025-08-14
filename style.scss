@@ -461,6 +461,10 @@ video {
 .mt-10 {
 	margin-top: 10px;
 }
+
+.mt-20 {
+	margin-top: 20px;
+}
 .navbar-area.navbar-nine {
 	background: var(--primary);
 	position: absolute;
@@ -472,11 +476,11 @@ video {
 	.navbar-brand {
 		margin: 0;
         .logo{
-            max-width: 92px;
+            max-width: 208px;
 			margin-bottom: 10px;
 
 			@media (max-width:580px) {
-				max-width: 75px;
+				max-width: 120px;
 			}
         }
 	}
