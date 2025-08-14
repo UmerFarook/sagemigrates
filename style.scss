@@ -61,7 +61,7 @@ $border-color_4: var(--white);
 /* Footer eleven css */
 :root {
 	--font-family: "Inter", sans-serif;
-	--primary: #155bd5;
+	--primary: #1f4483;
 	--primary-dark: #1c3ab6;
 	--primary-light: #e2f1ff;
 	--accent: #00d4d7;
@@ -83,6 +83,7 @@ $border-color_4: var(--white);
 	--error-dark: #bf1257;
 	--error-light: #fce4eb;
 	--black: #1d1d1d;
+	--gold: #d1aa60;
 	--dark-1: #2d2d2d;
 	--dark-2: #4d4d4d;
 	--dark-3: #6d6d6d;
@@ -413,6 +414,14 @@ p {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.pt-90 {
+	padding-top: 80px;
+}
+
+.mw-80 {
+	max-width: 80px;
+}
 .section-title-five {
 	text-align: center;
 	max-width: 550px;
@@ -448,6 +457,10 @@ video {
 .mb-100 {
 	margin-bottom: 100px;
 }
+
+.mt-10 {
+	margin-top: 10px;
+}
 .navbar-area.navbar-nine {
 	background: var(--primary);
 	position: absolute;
@@ -459,7 +472,8 @@ video {
 	.navbar-brand {
 		margin: 0;
         .logo{
-            max-width: 115px;
+            max-width: 92px;
+			margin-bottom: 10px;
 
 			@media (max-width:580px) {
 				max-width: 75px;
@@ -2080,4 +2094,9 @@ video {
 
   .color-blue {
 	  color: #155bd5;
+  }
+
+
+  .gold-text{
+	  color:var(--gold) ;
   }
