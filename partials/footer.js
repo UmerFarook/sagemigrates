@@ -25,12 +25,12 @@ export class SMFooter extends HTMLElement {
                         <img src="assets/images/logo-gold-alone.png" width="200" alt="#" class="img-fluid" />
                       </a>
                     </div>
-                    <h2 class="gold-text mt-20 ">SAGE MIGRATES</h2>
+                    <h3 class="gold-text mt-20 ">SAGE CONSULTANCY</h3>
                     <p>
                       Your global journey begins here
                     </p>
                     <p class="copyright-text">
-                      <span>© 2024 Sage migrates</span>
+                      <span>© 2024 Sage Consultancy</span>
     
                     </p>
                   </div>

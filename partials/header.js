@@ -68,7 +68,7 @@ export class SMHeader extends HTMLElement {
           <div class="sidebar-logo">
             <a href="index.html"><img class="mw-80" src="assets/images/logo-gold-alone.png" alt="Logo" /></a>
           </div>
-          <h4 class="gold-text  mt-10">SAGE MIGRATES</h4>
+          <h4 class="gold-text  mt-10">SAGE CONSULTANCY</h4>
           <p class="text">Your global journey begins here</p>
           <!-- logo -->
           <div class="sidebar-menu">
