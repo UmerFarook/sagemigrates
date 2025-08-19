@@ -14,7 +14,7 @@ export class SMMenu extends HTMLElement {
          <div id="navbarNine">
          <ul class="navbar-nav me-auto">
            <li class="nav-item">
-             <a class="page-scroll active" href="#hero-area">Home</a>
+             <a class="page-scroll active" href="/index.html">Home</a>
            </li>
            <li class="nav-item">
              <a class="page-scroll" href="#services">Services</a>
