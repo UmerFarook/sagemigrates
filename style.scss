@@ -1248,6 +1248,10 @@ video {
 		background-position: 98% 5%;
 	
 	}
+
+	@media (max-width:580px) {
+		background-size: cover !important;
+	}
 	.inner-content {
 		.light-rounded-buttons {
 			.primary-btn-outline {

@@ -20,7 +20,7 @@ export class SMMenu extends HTMLElement {
              <a class="page-scroll" href="#services">Services</a>
               <ul class="sub-menu">
                 <li class="nav-item">
-                  <a class="page-scroll" href="#migrate">Australia</a>
+                  <a class="" href="/pages/services/australia.html">Australia</a>
                   <ul class="sub-menu">
                   <h6 class="menu-title">Program Offered</h6>
                       <li class="nav-item">
@@ -42,7 +42,7 @@ export class SMMenu extends HTMLElement {
                     </ul>
                 </li>
                 <li class="nav-item">
-                 <a class="page-scroll" href="#contact">Canada</a>
+                 <a class="" href="/pages/services/canada.html">Canada</a>
                  <ul class="sub-menu">
                  
                  <h6 class="menu-title">Program Offered</h6>
@@ -78,7 +78,7 @@ export class SMMenu extends HTMLElement {
                     </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#contact">Europe</a>
+                  <a class="" href="/pages/services/europe.html">Europe</a>
                   <ul class="sub-menu">
                  
  
@@ -104,7 +104,7 @@ export class SMMenu extends HTMLElement {
                 </li>
                
                 <li class="nav-item">
-                  <a class="page-scroll" href="#contact">Newzealand</a>
+                  <a class="" href="/pages/services/newzealand.html">Newzealand</a>
                   <ul class="sub-menu">
                   <h6 class="menu-title">Program Offered</h6>
                       <li class="nav-item">

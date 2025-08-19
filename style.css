@@ -1351,6 +1351,12 @@ video {
   background-position: 98% 5%;
 }
 
+@media (max-width: 580px) {
+  .call-action {
+    background-size: cover !important;
+  }
+}
+
 .call-action .inner-content {
   text-align: center;
 }
