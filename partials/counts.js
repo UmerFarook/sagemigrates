@@ -70,34 +70,7 @@ export class SMCounts extends HTMLElement {
        </section>
         `;
 
-        const navbarTogglerNine = this.querySelector(".navbar-nine .navbar-toggler");
-        const sidebarLeft = this.querySelector(".sidebar-left");
-        const overlayLeft = this.querySelector(".overlay-left");
-        const sidebarClose = this.querySelector(".sidebar-close .close");
-        const sideMenuLeftNine = this.querySelector(".navbar-nine .menu-bar");
-
-        // === Navbar toggler click ===
-        navbarTogglerNine.addEventListener("click", () => {
-            navbarTogglerNine.classList.toggle("active");
-        });
-
-        // === Left sidebar toggle (overlay click) ===
-        overlayLeft.addEventListener("click", () => {
-            sidebarLeft.classList.toggle("open");
-            overlayLeft.classList.toggle("open");
-        });
-
-        // === Close button click ===
-        sidebarClose.addEventListener("click", () => {
-            sidebarLeft.classList.remove("open");
-            overlayLeft.classList.remove("open");
-        });
-
-        // === Menu bar click ===
-        sideMenuLeftNine.addEventListener("click", () => {
-            sidebarLeft.classList.add("open");
-            overlayLeft.classList.add("open");
-        });
+       
     }
 }
 

@@ -577,9 +577,10 @@ video {
 					transition: all 0.3s ease-out 0s;
 					z-index: 99;
 					box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
-					padding: 10px;
+					padding: 0;
 					li {
 						position: relative;
+						
 						.sub-nav-toggler {
 							color: $color_1;
 							-webkit-transition: all 0.3s ease-out 0s;
@@ -592,7 +593,7 @@ video {
 							display: flex;
 							align-items: center;
 							justify-content: space-between;
-							padding: 8px 16px;
+							padding: 10px 16px;
 							position: relative;
 							color: $color_7;
 							-webkit-transition: all 0.3s ease-out 0s;
@@ -618,6 +619,9 @@ video {
 							right: auto;
 							left: 100%;
 							top: 0;
+							@media (min-width:480px) {
+								top: -10px;
+							}
 							opacity: 0;
 							visibility: hidden;
 							-webkit-transition: all 0.3s ease-out 0s;
@@ -635,8 +639,9 @@ video {
 								color: $color_4;
 							}
 							>a {
-								color: $color_5;
+								color: #fff;
 								padding-left: 22px;
+								background: var(--primary);
 								i {
 									color: $color_5;
 								}
@@ -1216,6 +1221,33 @@ video {
 	}
 }
 .call-action {
+	&.australia{
+		background: url(/assets/images/banner-australia-2.jpg);
+		background-size: 100%;
+	}
+	&.canada{
+		background: url(/assets/images/canada-1.jpg);
+		background-size: 100%;
+		background-position: 90% 31%;
+	}
+	&.europe{
+		background: url(/assets/images/europe.jpg);
+		background-size: 164%;
+		background-position: 75% 29%;
+	
+	}
+	&.newzealand{
+		background: url(/assets/images/newzealand.jpg);
+		background-size: 100%;
+		background-position: 90% 61%;
+	
+	}
+	&.ireland{
+		background: url(/assets/images/ireland.jpg);
+		background-size: 100%;
+		background-position: 98% 5%;
+	
+	}
 	.inner-content {
 		.light-rounded-buttons {
 			.primary-btn-outline {
@@ -1283,6 +1315,7 @@ video {
 		.image {
 			position: relative;
 			border-radius: 4px;
+			height: 300px;
 			overflow: hidden;
 			img {
 				height: 100%;
@@ -2024,6 +2057,37 @@ video {
 		}
 	}
 }
+
+.menu-title {
+	color: var(--primary);
+	margin: 12px 15px 8px 16px;
+}
+
+.general-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+  
+	li {
+	  margin-bottom: 12px;
+	  padding-left: 28px;
+	  position: relative;
+	  font-size: 16px;
+	  line-height: 1.6;
+	  color: #333;
+  
+	  &::before {
+		content: "";
+		position: absolute;
+		left: 0;
+		top: 8px; // vertically centers square
+		width: 10px;
+		height: 10px;
+		background-color:var(--primary); // teal square
+		border-radius: 2px;        // optional: slight rounding
+	  }
+	}
+  }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
 	.navbar-area.navbar-nine {
 		.navbar {
@@ -2033,7 +2097,7 @@ video {
 					.sub-menu {
 						li {
 							.sub-menu {
-								margin-left: 10px;
+								margin-left: 0px;
 							}
 						}
 					}

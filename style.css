@@ -611,7 +611,7 @@ video {
   z-index: 99;
   -webkit-box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
           box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
-  padding: 10px;
+  padding: 0;
 }
 
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li {
@@ -634,7 +634,7 @@ video {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 8px 16px;
+  padding: 10px 16px;
   position: relative;
   color: var(--dark-2);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -664,6 +664,12 @@ video {
   transition: all 0.3s ease-out 0s;
 }
 
+@media (min-width: 480px) {
+  .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li .sub-menu {
+    top: -10px;
+  }
+}
+
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover .sub-menu {
   opacity: 1;
   visibility: visible;
@@ -674,8 +680,9 @@ video {
 }
 
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover > a {
-  color: var(--primary);
+  color: #fff;
   padding-left: 22px;
+  background: var(--primary);
 }
 
 .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li:hover > a i {
@@ -1315,6 +1322,35 @@ video {
   position: relative;
 }
 
+.call-action.australia {
+  background: url(/assets/images/banner-australia-2.jpg);
+  background-size: 100%;
+}
+
+.call-action.canada {
+  background: url(/assets/images/canada-1.jpg);
+  background-size: 100%;
+  background-position: 90% 31%;
+}
+
+.call-action.europe {
+  background: url(/assets/images/europe.jpg);
+  background-size: 164%;
+  background-position: 75% 29%;
+}
+
+.call-action.newzealand {
+  background: url(/assets/images/newzealand.jpg);
+  background-size: 100%;
+  background-position: 90% 61%;
+}
+
+.call-action.ireland {
+  background: url(/assets/images/ireland.jpg);
+  background-size: 100%;
+  background-position: 98% 5%;
+}
+
 .call-action .inner-content {
   text-align: center;
 }
@@ -1391,6 +1427,7 @@ video {
 .latest-news-area .single-news .image {
   position: relative;
   border-radius: 4px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -2122,12 +2159,43 @@ video {
   }
 }
 
+.menu-title {
+  color: var(--primary);
+  margin: 12px 15px 8px 16px;
+}
+
+.general-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.general-list li {
+  margin-bottom: 12px;
+  padding-left: 28px;
+  position: relative;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.general-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  background-color: var(--primary);
+  border-radius: 2px;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .navbar-area.navbar-nine .navbar .navbar-nav {
     margin-left: 80px;
   }
   .navbar-area.navbar-nine .navbar .navbar-nav .nav-item .sub-menu li .sub-menu {
-    margin-left: 10px;
+    margin-left: 0px;
   }
   .contact-section .contact-item-wrapper .contact-item {
     padding: 20px;

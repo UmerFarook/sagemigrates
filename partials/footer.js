@@ -22,7 +22,7 @@ export class SMFooter extends HTMLElement {
                   <div class="footer-widget f-about">
                     <div class="logo">
                       <a href="index.html">
-                        <img src="assets/images/logo-gold-alone.png" width="200" alt="#" class="img-fluid" />
+                        <img src="/assets/images/logo-gold-alone.png" width="200" alt="#" class="img-fluid" />
                       </a>
                     </div>
                     <h3 class="gold-text mt-20 ">SAGE CONSULTANCY</h3>
@@ -85,6 +85,36 @@ export class SMFooter extends HTMLElement {
         <!--/ End Footer Top -->
       </footer>
         `;
+        function loadScript(src) {
+          return new Promise((resolve, reject) => {
+            const s = document.createElement("script");
+            s.src = src;
+            s.onload = resolve;
+            s.onerror = reject;
+            document.body.appendChild(s);
+          });
+        }
+        
+        (async () => {
+          try {
+            // Load scripts in sequence
+            await loadScript("/assets/js/bootstrap.bundle.min.js");
+            await loadScript("/assets/js/glightbox.min.js");
+            await loadScript("/assets/js/main.js");
+            await loadScript("/assets/js/tiny-slider.js");
+        
+            // Initialize GLightbox after the library is loaded
+            GLightbox({
+              href: "https://www.youtube.com/watch?v=GTRQsa3jpXU",
+              type: "video",
+              source: "youtube", // vimeo, youtube or local
+              width: 900,
+              autoplayVideos: true,
+            });
+          } catch (err) {
+            console.error("Failed loading footer scripts", err);
+          }
+        })();
     }
 }
 
