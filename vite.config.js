@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "/sagemigrates/",
+  build: {
+    outDir: 'docs',   // 👈 build goes to docs/
+  },
 })
