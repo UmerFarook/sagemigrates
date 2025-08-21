@@ -12,7 +12,7 @@ export  default function Footer () {
                                     <div className="footer-widget f-about">
                                         <div className="logo">
                                             <a href="index.html">
-                                                <img src="src/assets/images/logo-gold-alone.png" width="200" alt="#"
+                                                <img src="../../public/assets/images/logo-gold-alone.png" width="200" alt="#"
                                                      className="img-fluid"/>
                                             </a>
                                         </div>

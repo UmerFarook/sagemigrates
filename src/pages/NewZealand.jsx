@@ -6,7 +6,7 @@ export default function NewZealand() {
                     <div className="row justify-content-center">
                         <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
                             <div className="inner-content">
-                                <img src="src/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
+                                <img src="../../public/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
                                 <h2>New Zealand</h2>
 
 
@@ -108,7 +108,7 @@ export default function NewZealand() {
                                     <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA"></circle>
                                     <circle cx="104" cy="132" r="1.66667" fill="#DADADA"></circle>
                                 </svg>
-                                <img src="src/assets/images/newzealand-1.jpg" alt="New Zealand Immigration"/>
+                                <img src="../../public/assets/images/newzealand-1.jpg" alt="New Zealand Immigration"/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">

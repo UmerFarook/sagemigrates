@@ -9,7 +9,7 @@ export default function Header() {
                     <div className="col-lg-12">
                         <nav className="navbar navbar-expand-lg">
                             <a className="navbar-brand" href="/index.html">
-                                <img className="logo" src="src/assets/images/logo-gold-horizontal.png" alt="Logo"/>
+                                <img className="logo" src="../../public/assets/images/logo-gold-horizontal.png" alt="Logo"/>
                             </a>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarNine"
@@ -44,7 +44,7 @@ export default function Header() {
         </div>
         <div class="sidebar-content">
             <div class="sidebar-logo">
-                <a href="index.html"><img class="mw-80" src="src/assets/images/logo-gold-alone.png" alt="Logo"/></a>
+                <a href="index.html"><img class="mw-80" src="../../public/assets/images/logo-gold-alone.png" alt="Logo"/></a>
             </div>
             <h4 class="gold-text  mt-10">SAGE CONSULTANCY</h4>
             <p class="text">Your global journey begins here</p>

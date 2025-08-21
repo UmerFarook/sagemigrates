@@ -1229,26 +1229,26 @@ video {
   position: relative;
 }
 .call-action.australia {
-  background: url(src/assets/images/banner-australia-2.jpg);
+  background: url(../../../../public/assets/images/banner-australia-2.jpg);
   background-size: 100%;
 }
 .call-action.canada {
-  background: url(src/assets/images/canada-1.jpg);
+  background: url(../../../../public/assets/images/canada-1.jpg);
   background-size: 100%;
   background-position: 90% 31%;
 }
 .call-action.europe {
-  background: url(src/assets/images/europe.jpg);
+  background: url(../../../../public/assets/images/europe.jpg);
   background-size: 164%;
   background-position: 75% 29%;
 }
 .call-action.newzealand {
-  background: url(src/assets/images/newzealand.jpg);
+  background: url(../../../../public/assets/images/newzealand.jpg);
   background-size: 100%;
   background-position: 90% 61%;
 }
 .call-action.ireland {
-  background: url(src/assets/images/ireland.jpg);
+  background: url(../../../../public/assets/images/ireland.jpg);
   background-size: 100%;
   background-position: 98% 5%;
 }
