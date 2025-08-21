@@ -9,7 +9,7 @@ export default function Header() {
                     <div className="col-lg-12">
                         <nav className="navbar navbar-expand-lg">
                             <a className="navbar-brand" href="/index.html">
-                                <img className="logo" src="/public/assets/images/logo-gold-horizontal.png" alt="Logo"/>
+                                <img className="logo" src="/assets/images/logo-gold-horizontal.png" alt="Logo"/>
                             </a>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#navbarNine"
