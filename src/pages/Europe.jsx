@@ -1,4 +1,17 @@
+import Tabs from "../components/components/Tabs";
+
 export default function Europe() {
+     const europeTabData = [
+        {
+            id: "vision-europe",
+            title: "Programmes offered",
+            list: [
+                "Luxemburg work permit",
+                "Netherlands work permit",
+                "Germany work permit"
+            ]
+        }
+    ];
     return(
         <>
             <section id="call-action" className="call-action europe">
@@ -6,7 +19,7 @@ export default function Europe() {
                     <div className="row justify-content-center">
                         <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
                             <div className="inner-content">
-                                <img src="../../public/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
+                                <img src="/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
                                 <h2>Europe</h2>
 
 
@@ -108,34 +121,14 @@ export default function Europe() {
                                     <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA"></circle>
                                     <circle cx="104" cy="132" r="1.66667" fill="#DADADA"></circle>
                                 </svg>
-                                <img src="../../public/assets/images/europe-1.jpg" alt="Europe Immigration"/>
+                                <img src="/assets/images/europe-1.jpg" alt="Europe Immigration"/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">
                             <div className="about-five-content">
                                 <h6 className="small-title text-lg">OUR SERVICES</h6>
                                 <h2 className="main-title fw-bold">Immigration Programmes in Europe</h2>
-                                <div className="about-five-tab">
-                                    <nav>
-                                        <div className="nav nav-tabs" id="nav-tab-europe" role="tablist">
-                                            <button className="nav-link active" id="nav-vision-europe-tab"
-                                                    data-bs-toggle="tab" data-bs-target="#nav-vision-europe"
-                                                    type="button" role="tab" aria-controls="nav-vision-europe"
-                                                    aria-selected="true">Programmes offered
-                                            </button>
-                                        </div>
-                                    </nav>
-                                    <div className="tab-content" id="nav-tabContent-europe">
-                                        <div className="tab-pane fade show active" id="nav-vision-europe"
-                                             role="tabpanel" aria-labelledby="nav-vision-europe-tab">
-                                            <ul className="general-list">
-                                                <li>Luxemburg work permit</li>
-                                                <li>Netherlands work permit</li>
-                                                <li>Germany work permit</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Tabs tabs={europeTabData} ><p></p></Tabs>
                             </div>
                         </div>
                     </div>

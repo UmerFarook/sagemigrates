@@ -1,4 +1,32 @@
+import Tabs from "../components/components/Tabs";
+
 export default function NewZealand() {
+    const newZealandTabData = [
+        {
+            id: "who-nz",
+            title: "Why New Zealand?",
+            list: [
+                "One of the most sought-after immigration programs globally.",
+                "Settle in New Zealand in less than 6 months.",
+                "New Zealand aims to welcome a significant number of immigrants by 2027.",
+                "Enjoy access to free or affordable education for your children.",
+                "Sponsor family members to join you in New Zealand.",
+                "New Zealand’s immigration policies aim to attract thousands of migrants by 2027."
+            ]
+        },
+        {
+            id: "vision-nz",
+            title: "Programmes offered",
+            list: [
+                "Tourist Visa",
+                "Working Holiday Visa",
+                "Essential Skills Work Visa",
+                "Working Visa for Partnership",
+                "Skilled Migrant Residence Visa",
+                "Residence from Work Visa"
+            ]
+        }
+    ];
     return(
         <>
             <section id="call-action" className="call-action newzealand">
@@ -6,7 +34,7 @@ export default function NewZealand() {
                     <div className="row justify-content-center">
                         <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
                             <div className="inner-content">
-                                <img src="../../public/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
+                                <img src="/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
                                 <h2>New Zealand</h2>
 
 
@@ -108,7 +136,7 @@ export default function NewZealand() {
                                     <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA"></circle>
                                     <circle cx="104" cy="132" r="1.66667" fill="#DADADA"></circle>
                                 </svg>
-                                <img src="../../public/assets/images/newzealand-1.jpg" alt="New Zealand Immigration"/>
+                                <img src="/assets/images/newzealand-1.jpg" alt="New Zealand Immigration"/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">
@@ -116,51 +144,7 @@ export default function NewZealand() {
                                 <h6 className="small-title text-lg">OUR SERVICES</h6>
                                 <h2 className="main-title fw-bold">Discover the key advantages of migrating to New
                                     Zealand</h2>
-                                <div className="about-five-tab">
-                                    <nav>
-                                        <div className="nav nav-tabs" id="nav-tab-nz" role="tablist">
-                                            <button className="nav-link active" id="nav-who-nz-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#nav-who-nz" type="button" role="tab"
-                                                    aria-controls="nav-who-nz" aria-selected="true">Why New Zealand?
-                                            </button>
-                                            <button className="nav-link" id="nav-vision-nz-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#nav-vision-nz" type="button" role="tab"
-                                                    aria-controls="nav-vision-nz" aria-selected="false">Programmes
-                                                offered
-                                            </button>
-                                        </div>
-                                    </nav>
-                                    <div className="tab-content" id="nav-tabContent-nz">
-
-                                        <div className="tab-pane fade show active" id="nav-who-nz" role="tabpanel"
-                                             aria-labelledby="nav-who-nz-tab">
-                                            <ul className="general-list">
-                                                <li>One of the most sought-after immigration programs globally.</li>
-                                                <li>Settle in New Zealand in less than 6 months.</li>
-                                                <li>New Zealand aims to welcome a significant number of immigrants by
-                                                    2027.
-                                                </li>
-                                                <li>Enjoy access to free or affordable education for your children.</li>
-                                                <li>Sponsor family members to join you in New Zealand.</li>
-                                                <li>New Zealand’s immigration policies aim to attract thousands of
-                                                    migrants by 2027.
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        {/* Programmes */}
-                                        <div className="tab-pane fade" id="nav-vision-nz" role="tabpanel"
-                                             aria-labelledby="nav-vision-nz-tab">
-                                            <ul className="general-list">
-                                                <li>Tourist Visa</li>
-                                                <li>Working Holiday Visa</li>
-                                                <li>Essential Skills Work Visa</li>
-                                                <li>Working Visa for Partnership</li>
-                                                <li>Skilled Migrant Residence Visa</li>
-                                                <li>Residence from Work Visa</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Tabs tabs={newZealandTabData} ><p></p></Tabs>
                             </div>
                         </div>
                     </div>

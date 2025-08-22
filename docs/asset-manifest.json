@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.631f8e1b.css",
+    "main.js": "/static/js/main.e6e0640b.js",
+    "static/js/453.1b985e6d.chunk.js": "/static/js/453.1b985e6d.chunk.js",
+    "static/media/europe.jpg": "/static/media/europe.64f8f6691630c079cd22.jpg",
+    "static/media/ireland.jpg": "/static/media/ireland.a062f36c341a4e614f57.jpg",
+    "static/media/canada-1.jpg": "/static/media/canada-1.18c2c8611d861b56b5b0.jpg",
+    "static/media/newzealand.jpg": "/static/media/newzealand.c36e8477da5ee1be733a.jpg",
+    "static/media/banner-australia-2.jpg": "/static/media/banner-australia-2.57d49de6fb082b4fd7aa.jpg",
+    "static/media/LineIcons.svg": "/static/media/LineIcons.dd1368bb22ed02753466.svg",
+    "static/media/LineIcons.eot": "/static/media/LineIcons.b488e590aee6bee83c02.eot",
+    "static/media/LineIcons.ttf": "/static/media/LineIcons.2c2f484d8d04f3bef27c.ttf",
+    "static/media/LineIcons.woff": "/static/media/LineIcons.aa2ecc66d010fb466af1.woff",
+    "static/media/LineIcons.woff2": "/static/media/LineIcons.6ef10f14157d385cfaba.woff2",
+    "static/media/overlay.png": "/static/media/overlay.cad160c11b1167e51ee6.png",
+    "index.html": "/index.html",
+    "main.631f8e1b.css.map": "/static/css/main.631f8e1b.css.map",
+    "main.e6e0640b.js.map": "/static/js/main.e6e0640b.js.map",
+    "453.1b985e6d.chunk.js.map": "/static/js/453.1b985e6d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.631f8e1b.css",
+    "static/js/main.e6e0640b.js"
+  ]
+}

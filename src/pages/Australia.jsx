@@ -1,4 +1,34 @@
+import Tabs from "../components/components/Tabs";
+
+
 export default function Australia() {
+    const tabData =[
+        {
+            "id": "who",
+            "title": "Why Australia?",
+            "paragraphs":['Discover the key advantages of migrating to Australia:'],
+            "list": [
+                "No economic downturn forecast for the next 25 years.",
+                "Plan to welcome 500,000 migrants by 2027.",
+                "90% of immigration applications are processed within 8 to 10 months.",
+                "Stay in Australia long-term without a time limit.",
+                "Access affordable or free healthcare for you and your family.",
+                "Ability to sponsor eligible family members for permanent residency."
+            ]
+        },
+        {
+            "id": "vision",
+            "title": "Programmes offered",
+            "paragraphs":['Popular immigration programmes available in Australia include:',],
+            "list": [
+                "Subclass 482",
+                "Subclass 189",
+                "Subclass 186",
+                "Subclass 190",
+                "Open work permit (spouse sponsorship visa)"
+            ]
+        }
+    ]
     return(
         <>
             <section id="call-action" className="call-action australia">
@@ -6,7 +36,7 @@ export default function Australia() {
                     <div className="row justify-content-center">
                         <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
                             <div className="inner-content">
-                                <img src="../../public/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
+                                <img src="/assets/images/logo-gold-alone.png" className="margin-30 pt-90" width="200"/>
                                 <h2>Australia</h2>
 
 
@@ -108,7 +138,7 @@ export default function Australia() {
                                     <circle cx="60.333" cy="132" r="1.66667" fill="#DADADA"></circle>
                                     <circle cx="104" cy="132" r="1.66667" fill="#DADADA"></circle>
                                 </svg>
-                                <img src="../../public/assets/images/australia-1.jpg" alt="about"/>
+                                <img src="/assets/images/australia-1.jpg" alt="about"/>
                             </div>
                         </div>
                         <div className="col-lg-6 col-12">
@@ -116,53 +146,7 @@ export default function Australia() {
                                 <h6 className="small-title text-lg">OUR SERVICES</h6>
                                 <h2 className="main-title fw-bold">Discover the key advantages of migrating to
                                     Australia</h2>
-                                <div className="about-five-tab">
-                                    <nav>
-                                        <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                                            <button className="nav-link active" id="nav-who-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#nav-who" type="button" role="tab"
-                                                    aria-controls="nav-who" aria-selected="true">Why Australia?
-                                            </button>
-                                            <button className="nav-link" id="nav-vision-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#nav-vision" type="button" role="tab"
-                                                    aria-controls="nav-vision" aria-selected="false">Programmes offered
-                                            </button>
-                                        </div>
-                                    </nav>
-                                    <div className="tab-content" id="nav-tabContent">
-                                        <div className="tab-pane fade show active" id="nav-who" role="tabpanel"
-                                             aria-labelledby="nav-who-tab">
-                                            <p>
-                                                <ul className="general-list">
-                                                    <li>No economic downturn forecast for the next 25 years.</li>
-                                                    <li>Plan to welcome 500,000 migrants by 2027.</li>
-                                                    <li>90% of immigration applications are processed within 8 to 10
-                                                        months.
-                                                    </li>
-                                                    <li>Stay in Australia long-term without a time limit.</li>
-                                                    <li>Access affordable or free healthcare for you and your family.
-                                                    </li>
-                                                    <li>Ability to sponsor eligible family members for permanent
-                                                        residency.
-                                                    </li>
-                                                </ul>
-                                            </p>
-                                        </div>
-                                        <div className="tab-pane fade" id="nav-vision" role="tabpanel"
-                                             aria-labelledby="nav-vision-tab">
-                                            <p>
-                                                <ul className="general-list">
-                                                    <li>Subclass 482</li>
-                                                    <li>Subclass 189</li>
-                                                    <li>Subclass 186</li>
-                                                    <li>Subclass 190</li>
-                                                    <li>Open work permit (spouse sponsorship visa)</li>
-                                                </ul>
-                                            </p>
-                                        </div>
-
-                                    </div>
-                                </div>
+                                <Tabs tabs={tabData} ><p></p></Tabs>
                             </div>
                         </div>
                     </div>

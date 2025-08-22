@@ -12,7 +12,7 @@ export  default function Footer () {
                                     <div className="footer-widget f-about">
                                         <div className="logo">
                                             <a href="index.html">
-                                                <img src="../../public/assets/images/logo-gold-alone.png" width="200" alt="#"
+                                                <img src="/assets/images/logo-gold-alone.png" width="200" alt="#"
                                                      className="img-fluid"/>
                                             </a>
                                         </div>
@@ -76,6 +76,9 @@ export  default function Footer () {
                 </div>
                 {/*/ End Footer Top */}
             </footer>
+            <a href="#" className="scroll-top btn-hover">
+                <i className="lni lni-chevron-up"></i>
+            </a>
         </>
     )
 }

@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-export default function Menu () {
+export default function Menu ({show}) {
     return (
-        <div className="collapse navbar-collapse sub-menu-bar">
+        <div className={`${show ? "" : "collapse"} navbar-collapse sub-menu-bar`}>
             <div id="navbarNine">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">

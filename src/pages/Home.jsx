@@ -28,7 +28,7 @@ export default function Home() {
                     <div className="col-lg-8 col-md-12 col-12">
                         <div className="header-image">
                             <video className="bg-video" autoPlay muted playsInline loop>
-                                <source src="../../public/assets/video/banner.mp4" type="video/mp4"/>
+                                <source src="/assets/video/banner.mp4" type="video/mp4"/>
                                     Your browser does not support the video tag.
                             </video>
                         </div>
@@ -250,7 +250,7 @@ export default function Home() {
                 <div className="row justify-content-center">
                     <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
                         <div className="inner-content">
-                            <img src="../../public/assets/images/logo-white.png" width="200"/>
+                            <img src="/assets/images/logo-white.png" width="200"/>
                                 <h2 className="mt-20">We love creating perfect<br/>
                                     solutions for your migration journey</h2>
                                 <p>
@@ -295,9 +295,9 @@ export default function Home() {
                         {/* Single News */}
                         <div className="single-news">
                             <div className="image">
-                                <a href="javascript:void(0)"><img className="thumb" src="../../public/assets/images/blog/australia.jpg" alt="Blog" /></a>
+                                <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/australia.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
-                                    <img className="thumb" src="../../public/assets/images/blog/australia.jpg" alt="Author" />
+                                    <img className="thumb" src="/assets/images/blog/australia.jpg" alt="Author" />
                                     <span>Read More</span>
                                 </div>
                             </div>
@@ -319,9 +319,9 @@ export default function Home() {
                         {/* Single News */}
                         <div className="single-news">
                             <div className="image">
-                                <a href="javascript:void(0)"><img className="thumb" src="../../public/assets/images/blog/europe-3.jpg" alt="Blog" /></a>
+                                <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/europe-3.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
-                                    <img className="thumb" src="../../public/assets/images/blog/europe-3.jpg" alt="Author" />
+                                    <img className="thumb" src="/assets/images/blog/europe-3.jpg" alt="Author" />
                                     <span>Read more </span>
                                 </div>
                             </div>
@@ -342,9 +342,9 @@ export default function Home() {
                         {/* Single News */}
                         <div className="single-news">
                             <div className="image">
-                                <a href="javascript:void(0)"><img className="thumb" src="../../public/assets/images/blog/canada.jpg" alt="Blog" /></a>
+                                <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/canada.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
-                                    <img className="thumb" src="../../public/assets/images/blog/canada.jpg" alt="Author" />
+                                    <img className="thumb" src="/assets/images/blog/canada.jpg" alt="Author" />
                                     <span>Read More</span>
                                 </div>
                             </div>
@@ -366,9 +366,9 @@ export default function Home() {
                         {/* Single News */}
                         <div className="single-news">
                             <div className="image">
-                                <a href="javascript:void(0)"><img className="thumb" src="../../public/assets/images/blog/new-zealand.jpg" alt="Blog" /></a>
+                                <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/new-zealand.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
-                                    <img className="thumb" src="../../public/assets/images/blog/new-zealand.jpg" alt="Author" />
+                                    <img className="thumb" src="/assets/images/blog/new-zealand.jpg" alt="Author" />
                                     <span>Read More</span>
                                 </div>
                             </div>
