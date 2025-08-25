@@ -7,6 +7,11 @@ export default function Header() {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
     const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+    const handleMenuClose = () => {
+        setMobileMenuOpen(false);
+        setIsNavbarActive(false)
+    }
+
     return (
         <>
             <section className="navbar-area navbar-nine">
@@ -39,7 +44,7 @@ export default function Header() {
                                     <span className="toggler-icon"></span>
                                 </button>
 
-                                <Menu show={isMobileMenuOpen} />
+                                <Menu show={isMobileMenuOpen} closeMenu={handleMenuClose} />
 
                                 {/* === Sidebar Menu Button === */}
                                 <div className="navbar-btn d-none d-lg-inline-block">

@@ -38,7 +38,7 @@ export const countryData = {
                 {
                     "title": "Need Guidance?",
                     "content": "Navigating Europe’s permit systems can be tricky, but you don’t have to do it alone. Whether you’re seeking a job, planning a career pivot, or looking to relocate with your family, we provide tailored guidance to help you choose the right country, complete documentation, and stay informed every step of the way.",
-                    "image":"guidance.jpg",
+                    "image":"checklist.jpg",
 
                 },
                 {

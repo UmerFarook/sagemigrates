@@ -1,6 +1,9 @@
 import { NavLink } from "react-router-dom";
 
-export default function Menu ({show}) {
+export default function Menu ({show,closeMenu}) {
+    const closeMenuClick=()=>{
+        closeMenu()
+    }
     return (
         <div className={`${show ? "" : "collapse"} navbar-collapse sub-menu-bar`}>
             <div id="navbarNine">
@@ -14,7 +17,7 @@ export default function Menu ({show}) {
                         <ul className="sub-menu">
                             <li className="nav-item">
 
-                                <NavLink to="/Australia">Australia</NavLink>
+                                <NavLink to="/Australia" onClick={closeMenuClick}>Australia</NavLink>
                                 <ul className="sub-menu">
                                     <h6 className="menu-title">Program Offered</h6>
                                     <li className="nav-item">
@@ -38,7 +41,7 @@ export default function Menu ({show}) {
                             </li>
                             <li className="nav-item">
 
-                                <NavLink to="/Canada">Canada</NavLink>
+                                <NavLink to="/Canada" onClick={closeMenuClick}>Canada</NavLink>
                                 <ul className="sub-menu">
 
                                     <h6 className="menu-title">Program Offered</h6>
@@ -74,7 +77,7 @@ export default function Menu ({show}) {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/Europe">Europe</NavLink>
+                                <NavLink to="/Europe" onClick={closeMenuClick} >Europe</NavLink>
                                 <ul className="sub-menu">
 
 
@@ -95,7 +98,7 @@ export default function Menu ({show}) {
                             </li>
 
                             <li className="nav-item">
-                                <NavLink to="/NewZealand">NewZealand</NavLink>
+                                <NavLink to="/NewZealand" onClick={closeMenuClick} >NewZealand</NavLink>
                                 <ul className="sub-menu">
                                     <h6 className="menu-title">Program Offered</h6>
                                     <li className="nav-item">
@@ -122,7 +125,7 @@ export default function Menu ({show}) {
                                     </li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item" onClick={closeMenuClick} >
                                 <NavLink to="/Ireland">Ireland</NavLink>
 
                             </li>
