@@ -1,7 +1,30 @@
 import Counter from "../components/components/counter.jsx";
 import {NavLink} from "react-router-dom";
+import Tabs from "../components/components/Tabs";
 
 export default function Home() {
+
+    const tabData = [
+        {
+            "id": "who",
+            "title": "About Us",
+            "paragraphs":[ "Our team of highly experienced immigration specialists possesses in-depth knowledge of the entire immigration process, offering expert guidance at every stage of your journey. We are committed to delivering exceptional service to our clients, ensuring a seamless and positive experience throughout the entire process. With years of expertise, our consultants are dependable and trustworthy, dedicated to fulfilling all of your unique needs. Recognizing the significance of a successful immigration application, we prioritize meticulous care and attention in managing every case."],
+            "list": []
+        },
+        {
+            "id": "vision",
+            "title": "Our Vision",
+            "paragraphs": ["Our vision is to establish ourselves as the global leader in immigration services, recognized for our unwavering reliability and trustworthiness. We are dedicated to streamlining the process of securing immigration and residency permits, making it faster, more efficient, and consistently dependable for our clients."],
+            "list": []
+        },
+        {
+            "id": "history",
+            "title": "Our Mission",
+            "paragraphs": ["At SAGE, our mission is to deliver unparalleled service and comprehensive support to our clients as they embark on their journey to their desired destinations, whether for education, employment, or permanent relocation. We are dedicated to ensuring a seamless transition for our clients as they settle into their new environments, equipping them with the resources and knowledge necessary to navigate any challenges along the way. Our team is unwavering in its commitment to providing exceptional customer service, ensuring that every client has access to the critical information and expert guidance required for a successful international move."],
+            "list": []
+        }
+    ];
+
     return(
         <>
             <section id="hero-area" className="header-area header-eight">
@@ -137,65 +160,7 @@ export default function Home() {
                             <div className="about-five-content">
                                 <h6 className="small-title text-lg">OUR STORY</h6>
                                 <h2 className="main-title fw-bold">Most trusted names in immigration law</h2>
-                                <div className="about-five-tab">
-                                    <nav>
-                                        <div className="nav nav-tabs" id="nav-tab" role="tablist">
-                                            <button className="nav-link active" id="nav-who-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#nav-who"
-                                                    type="button" role="tab" aria-controls="nav-who"
-                                                    aria-selected="true">About Us
-                                            </button>
-                                            <button className="nav-link" id="nav-vision-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#nav-vision"
-                                                    type="button" role="tab" aria-controls="nav-vision"
-                                                    aria-selected="false">our Vision
-                                            </button>
-                                            <button className="nav-link" id="nav-history-tab" data-bs-toggle="tab"
-                                                    data-bs-target="#nav-history"
-                                                    type="button" role="tab" aria-controls="nav-history"
-                                                    aria-selected="false">our Mission
-                                            </button>
-                                        </div>
-                                    </nav>
-                                    <div className="tab-content" id="nav-tabContent">
-                                        <div className="tab-pane fade show active" id="nav-who" role="tabpanel"
-                                             aria-labelledby="nav-who-tab">
-                                            <p>Our team of highly experienced immigration specialists possesses in-depth
-                                                knowledge of the entire immigration process, offering expert guidance at
-                                                every stage of your journey. We are committed to delivering exceptional
-                                                service to our clients, ensuring a seamless and positive experience
-                                                throughout the entire process.<br/> <br/> With years of expertise, our
-                                                consultants are dependable and trustworthy, dedicated to fulfilling all
-                                                of your unique needs. Recognizing the significance of a successful
-                                                immigration application, we prioritize meticulous care and attention in
-                                                managing every case.
-                                            </p>
-                                        </div>
-                                        <div className="tab-pane fade" id="nav-vision" role="tabpanel"
-                                             aria-labelledby="nav-vision-tab">
-                                            <p>Our vision is to establish ourselves as the global leader in immigration
-                                                services, recognized for our unwavering reliability and trustworthiness.
-                                                We are dedicated to streamlining the process of securing immigration and
-                                                residency permits, making it faster, more efficient, and consistently
-                                                dependable for our clients.
-                                            </p>
-                                        </div>
-                                        <div className="tab-pane fade" id="nav-history" role="tabpanel"
-                                             aria-labelledby="nav-history-tab">
-                                            <p>At SAGE, our mission is to deliver unparalleled service and comprehensive
-                                                support to our clients as they embark on their journey to their desired
-                                                destinations, whether for education, employment, or permanent
-                                                relocation. We are dedicated to ensuring a seamless transition for our
-                                                clients as they settle into their new environments, equipping them with
-                                                the resources and knowledge necessary to navigate any challenges along
-                                                the way. <br/><br/> Our team is unwavering in its commitment to
-                                                providing exceptional customer service, ensuring that every client has
-                                                access to the critical information and expert guidance required for a
-                                                successful international move.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
+                                <Tabs tabs={tabData} ><p></p></Tabs>
                             </div>
                         </div>
                     </div>
