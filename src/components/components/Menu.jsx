@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Menu ({show}) {
     return (
@@ -6,7 +6,7 @@ export default function Menu ({show}) {
             <div id="navbarNine">
                 <ul className="navbar-nav me-auto">
                     <li className="nav-item">
-                        <Link className="" to="/">Home</Link>
+                        <NavLink className="" to="/">Home</NavLink>
 
                     </li>
                     <li className="nav-item">
@@ -14,7 +14,7 @@ export default function Menu ({show}) {
                         <ul className="sub-menu">
                             <li className="nav-item">
 
-                                <Link to="/Australia">Australia</Link>
+                                <NavLink to="/Australia">Australia</NavLink>
                                 <ul className="sub-menu">
                                     <h6 className="menu-title">Program Offered</h6>
                                     <li className="nav-item">
@@ -38,7 +38,7 @@ export default function Menu ({show}) {
                             </li>
                             <li className="nav-item">
 
-                                <Link to="/Canada">Canada</Link>
+                                <NavLink to="/Canada">Canada</NavLink>
                                 <ul className="sub-menu">
 
                                     <h6 className="menu-title">Program Offered</h6>
@@ -74,7 +74,7 @@ export default function Menu ({show}) {
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <Link to="/Europe">Europe</Link>
+                                <NavLink to="/Europe">Europe</NavLink>
                                 <ul className="sub-menu">
 
 
@@ -95,7 +95,7 @@ export default function Menu ({show}) {
                             </li>
 
                             <li className="nav-item">
-                                <Link to="/NewZealand">NewZealand</Link>
+                                <NavLink to="/NewZealand">NewZealand</NavLink>
                                 <ul className="sub-menu">
                                     <h6 className="menu-title">Program Offered</h6>
                                     <li className="nav-item">
@@ -121,6 +121,10 @@ export default function Menu ({show}) {
                                         <a className="page-scroll" href="#contact">Residence from Work Visa</a>
                                     </li>
                                 </ul>
+                            </li>
+                            <li className="nav-item">
+                                <NavLink to="/Ireland">Ireland</NavLink>
+
                             </li>
                         </ul>
                     </li>

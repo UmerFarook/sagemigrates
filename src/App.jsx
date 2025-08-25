@@ -10,7 +10,7 @@ import './assets/css/bootstrap.min.css';
 import './assets/css/lineicons.css';
 import './assets/css/glightbox.min.css';
 import './assets/css/tiny-slider.css';
-import './assets/css/style.css';
+import './assets/scss/style.css';
 import './App.css'
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";

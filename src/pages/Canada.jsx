@@ -1,7 +1,9 @@
 import Tabs from "../components/components/Tabs";
+import {countryData} from "../data/country_data";
+import CountrySections from "../components/components/CountrySections";
 
 export default function Canada() {
-
+    const canada = countryData.countries.find(c => c.name === "Canada");
     const tabData = [
         {
             id: "who",
@@ -157,6 +159,9 @@ export default function Canada() {
                 </div>
                 {/* container */}
             </section>
+            <div>
+                <CountrySections country={canada} image="canada-1.jpg" />
+            </div>
         </>
     )
 }

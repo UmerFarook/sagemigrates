@@ -1,4 +1,6 @@
 import Tabs from "../components/components/Tabs";
+import CountrySections from "../components/components/CountrySections";
+import {countryData} from "../data/country_data";
 
 export default function Europe() {
      const europeTabData = [
@@ -12,6 +14,8 @@ export default function Europe() {
             ]
         }
     ];
+
+    const europe = countryData.countries.find(c => c.name === "Europe");
     return(
         <>
             <section id="call-action" className="call-action europe">
@@ -134,6 +138,9 @@ export default function Europe() {
                     </div>
                 </div>
             </section>
+            <div>
+                <CountrySections country={europe} image="europe-1.jpg" />
+            </div>
         </>
     )
 }

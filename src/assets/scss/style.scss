@@ -558,7 +558,9 @@ video {
 						transition: all 0.3s ease-out 0s;
 					}
 				}
-				a.active {
+				a.active.active {
+					background: $color_5;
+					color: $color-6;
 					opacity: 1;
 				}
 				.sub-menu {
@@ -922,6 +924,17 @@ video {
 	background-color: $background-color_6;
 	padding-top: 120px;
 	padding-bottom: 90px;
+	&.short {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+}
+.list-wrapp {
+	display: flex
+;
+	/* flex-direction: row; */
+	flex-wrap: wrap;
+	/* align-items: baseline; */
 }
 .about-five-content {
 	padding-left: 50px;
@@ -1014,6 +1027,7 @@ video {
 		-ms-transition: all 0.3s ease-out 0s;
 		-o-transition: all 0.3s ease-out 0s;
 		transition: all 0.3s ease-out 0s;
+		height: 100%;
 		&:hover {
 			box-shadow: var(--shadow-4);
 			.service-icon {
@@ -1717,7 +1731,6 @@ video {
 						box-shadow: none;
 						text-align: left;
 						border-top: 0;
-						height: 0;
 						li {
 							a {
 								i {
@@ -1737,7 +1750,7 @@ video {
 									color: $color_5;
 								}
 								>a {
-									color: $color_5;
+									color: $color_6;
 								}
 							}
 						}
@@ -1936,7 +1949,6 @@ video {
 						box-shadow: none;
 						text-align: left;
 						border-top: 0;
-						height: 0;
 						li {
 							a {
 								i {

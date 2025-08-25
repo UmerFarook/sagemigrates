@@ -1,6 +1,9 @@
 import Tabs from "../components/components/Tabs";
+import {countryData} from "../data/country_data";
+import CountrySections from "../components/components/CountrySections";
 
 export default function NewZealand() {
+    const newzealand = countryData.countries.find(c => c.name === "New Zealand");
     const newZealandTabData = [
         {
             id: "who-nz",
@@ -150,6 +153,9 @@ export default function NewZealand() {
                     </div>
                 </div>
             </section>
+            <div>
+                <CountrySections country={newzealand} image="newzealand-1.jpg" />
+            </div>
         </>
     )
 }
