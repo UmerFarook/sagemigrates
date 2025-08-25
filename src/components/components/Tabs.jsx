@@ -36,7 +36,7 @@ export default function Tabs({ tabs,children }) {
                     >
                         {/* Paragraphs */}
                         {tab.paragraphs?.map((para, i) => (
-                            <p key={i}>{para}</p>
+                            <p key={i} style={{ whiteSpace: "pre-line" }}>{para}</p>
                         ))}
 
                         {/* List */}
