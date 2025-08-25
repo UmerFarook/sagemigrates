@@ -1,4 +1,5 @@
 import Counter from "../components/components/counter.jsx";
+import {NavLink} from "react-router-dom";
 
 export default function Home() {
     return(
@@ -298,7 +299,7 @@ export default function Home() {
                                 <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/australia.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
                                     <img className="thumb" src="/assets/images/blog/australia.jpg" alt="Author" />
-                                    <span>Read More</span>
+                                    <span><NavLink to="/Australia"><span>Read More</span></NavLink> </span>
                                 </div>
                             </div>
                             <div className="content-body">
@@ -322,7 +323,7 @@ export default function Home() {
                                 <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/europe-3.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
                                     <img className="thumb" src="/assets/images/blog/europe-3.jpg" alt="Author" />
-                                    <span>Read more </span>
+                                    <span><NavLink to="/Europe"><span>Read More</span></NavLink> </span>
                                 </div>
                             </div>
                             <div className="content-body">
@@ -345,7 +346,7 @@ export default function Home() {
                                 <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/canada.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
                                     <img className="thumb" src="/assets/images/blog/canada.jpg" alt="Author" />
-                                    <span>Read More</span>
+                                    <NavLink to="/Canada"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                             <div className="content-body">
@@ -369,7 +370,7 @@ export default function Home() {
                                 <a href="javascript:void(0)"><img className="thumb" src="/assets/images/blog/new-zealand.jpg" alt="Blog" /></a>
                                 <div className="meta-details">
                                     <img className="thumb" src="/assets/images/blog/new-zealand.jpg" alt="Author" />
-                                    <span>Read More</span>
+                                    <NavLink to="/NewZealand"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                             <div className="content-body">
