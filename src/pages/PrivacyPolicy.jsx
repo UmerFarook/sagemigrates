@@ -1,0 +1,130 @@
+export default function PrivacyPolicy() {
+    return(
+        <>
+            <section id="call-action" className="call-action">
+                <div className="container">
+                    <div className="row justify-content-center">
+                        <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
+                            <div className="inner-content">
+                                <img src="assets/images/logo.png" className="margin-30" width="200"/>
+                                <h2>Privacy Policy</h2>
+                                <div className="light-rounded-buttons">
+                                    <a href="javascript:void(0)" className="btn primary-btn-outline">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="about-area about-five">
+                <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-12 col-12">
+                            <div className="about-five-content">
+                                <h6 className="small-title text-lg">Our Privacy Policy</h6>
+                                <h2 className="main-title fw-bold">Your privacy is our responsiblity</h2>
+                                <div className="margin-30">
+                                    <h3>Privacy Policy</h3><br/>
+                                    <p><strong>Effective Date:</strong> <br/>
+                                        <strong>Last Updated:</strong> 30 July 2025</p>
+                                    <br/><br/>
+
+                                    <h3>1. Introduction</h3><br/>
+                                    <br/>
+                                    <p>Welcome to <strong>Sage migrates</strong>. Your privacy is important to us. This
+                                        Privacy Policy outlines how we collect, use, and protect your information when
+                                        you visit our website <strong>sagemigrates.com</strong> or engage with our
+                                        services.</p>
+                                    <p>If you have any questions about this policy, feel free to reach out
+                                        at <strong>mail@sagemigrates.com</strong>.</p>
+                                    <br/><br/>
+
+                                    <h3>2. Information We Collect</h3><br/>
+                                    <br/>
+                                    <p>We may collect the following information:</p>
+                                    <ul>
+                                        <li><strong>Personal Information:</strong> Name, email address, phone number,
+                                            and any information you provide via forms or inquiries.
+                                        </li>
+                                        <li><strong>Usage Data:</strong> Pages visited, time spent, IP address, device
+                                            type, and browser data.
+                                        </li>
+                                        <li><strong>Cookies:</strong> We use cookies and similar technologies for better
+                                            functionality and analytics.
+                                        </li>
+                                    </ul>
+                                    <br/><br/>
+
+                                    <h3>3. How We Use Your Information</h3><br/>
+                                    <p>Sage migrates may use your data to:</p>
+                                    <ul>
+                                        <li>Provide and improve our services</li>
+                                        <li>Communicate with you about your inquiries or applications</li>
+                                        <li>Send you updates or newsletters (only with your consent)</li>
+                                        <li>Meet legal or regulatory obligations</li>
+                                    </ul>
+                                    <br/><br/>
+
+                                    <h3>4. Sharing Your Information</h3><br/>
+                                    <p>We do <strong>not sell or rent</strong> your personal information. We may share
+                                        your data with:</p>
+                                    <ul>
+                                        <li>Service providers assisting with website, email, or operations</li>
+                                        <li>Legal authorities when required by law</li>
+                                        <li>Our advisors under confidentiality obligations</li>
+                                    </ul>
+                                    <br/><br/>
+
+                                    <h3>5. Data Security</h3>
+                                    <p>We use reasonable administrative, technical, and physical safeguards to protect
+                                        your personal data. However, no online transmission is entirely secure.</p>
+                                    <br/><br/>
+
+                                    <h3>6. Your Rights</h3><br/>
+                                    <p>Depending on your jurisdiction, you may have rights to:</p>
+                                    <ul>
+                                        <li>Access or correct your data</li>
+                                        <li>Request deletion of your data</li>
+                                        <li>Withdraw your consent to data use</li>
+                                        <li>File a complaint with a relevant authority</li>
+                                    </ul>
+                                    <p>To exercise your rights, please contact <strong>[insert contact email]</strong>.
+                                    </p>
+                                    <br/><br/>
+
+                                    <h3>7. Third-Party Links</h3><br/>
+                                    <p>Our website may link to external websites. We are not responsible for their
+                                        privacy policies or practices.</p>
+                                    <br/><br/>
+
+                                    <h3>8. Children’s Privacy</h3><br/>
+                                    <p>We do not knowingly collect personal data from children under 13. If you believe
+                                        a child has provided us with personal information, please contact us.</p>
+                                    <br/><br/>
+
+                                    <h3>9. Changes to This Policy</h3><br/>
+                                    <p>We may update this Privacy Policy periodically. Any changes will be posted on
+                                        this page with an updated revision date.</p>
+                                    <br/><br/>
+
+                                    <h3>10. Contact Us</h3><br/>
+                                    <p>If you have any questions or concerns about this Privacy Policy, please
+                                        contact:</p>
+                                    <p>
+                                        <strong>Sage migrates</strong><br/>
+                                        <strong>Email:</strong> [insert contact email]<br/>
+                                        <strong>Website:</strong> sagemigrates.com<br/>
+                                        <strong>Address:</strong> [insert physical address]
+                                    </p>
+                                    <br/><br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </>
+    )
+}

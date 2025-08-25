@@ -14,6 +14,8 @@ import './assets/scss/style.css';
 import './App.css'
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ScrollToTop from "./components/components/ScrollTop";
 
 function App() {
 
@@ -23,6 +25,7 @@ function App() {
 
             <BrowserRouter>
                 <Header></Header>
+                <ScrollToTop></ScrollToTop>
                 <Routes>
                     <Route path="/" element={<Home/>} />
                     <Route path="/australia" element={<Australia />} />
@@ -30,6 +33,7 @@ function App() {
                     <Route path="/europe" element={<Europe />} />
                     <Route path="/ireland" element={<Ireland />} />
                     <Route path="/newzealand" element={<NewZealand />} />
+                    <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
                 </Routes>
                 <Footer></Footer>
             </BrowserRouter>

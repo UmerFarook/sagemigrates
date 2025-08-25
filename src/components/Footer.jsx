@@ -1,3 +1,6 @@
+import {NavLink} from "react-router-dom";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
+
 export  default function Footer () {
     return(
         <>
@@ -32,7 +35,7 @@ export  default function Footer () {
                                     <div className="footer-widget f-link">
                                         <h5>Solutions</h5>
                                         <ul>
-                                            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                                            <li><NavLink to='/PrivacyPolicy'>Privacy Policy</NavLink></li>
                                             <li><a href="javascript:void(0)">Analytics</a></li>
                                             <li><a href="javascript:void(0)">Commerce</a></li>
                                             <li><a href="javascript:void(0)">Insights</a></li>
