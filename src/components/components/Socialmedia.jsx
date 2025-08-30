@@ -6,7 +6,7 @@ import { faFacebookF, faInstagram,faYoutube } from "@fortawesome/free-brands-svg
 export default function Socialmedia () {
 
     return (
-        <div style={{ display: "flex", gap: "15px", marginTop:"30px" }}>
+        <div style={{ display: "flex", gap: "15px", marginTop:"30px" }} className='social-icons'>
             <a href="https://www.facebook.com/profile.php?id=61579640040332" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <FontAwesomeIcon icon={faFacebookF} style={{ color: "#d9b166", fontSize: "28px" }} />
             </a>

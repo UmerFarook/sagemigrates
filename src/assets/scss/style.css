@@ -1514,15 +1514,15 @@ video {
   display: flex;
   gap: 15px;
 }
-
-.social-icons a {
-  color: #000; /* Default monochrome color */
-  font-size: 24px;
-  transition: color 0.3s;
+@media (max-width: 520px) {
+  .social-icons {
+    justify-content: center;
+  }
 }
 
-.social-icons a:hover {
-  color: #0077b5; /* Change color on hover (example: LinkedIn blue) */
+.social-icons a {
+  font-size: 24px;
+  transition: color 0.3s;
 }
 
 .contact-section {
