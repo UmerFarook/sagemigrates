@@ -1,5 +1,6 @@
 import {NavLink} from "react-router-dom";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import Socialmedia from "./components/Socialmedia";
 
 export  default function Footer () {
     return(
@@ -23,6 +24,7 @@ export  default function Footer () {
                                         <p>
                                             Your global journey begins here
                                         </p>
+                                        <Socialmedia></Socialmedia>
                                         <p className="copyright-text">
                                             <span>© 2024 Sage Consultancy</span>
 
