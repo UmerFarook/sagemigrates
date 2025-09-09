@@ -477,8 +477,9 @@ export default function Home() {
                                                 </div>
                                                 <div className="contact-content">
                                                     <h4>Contact</h4>
-                                                    <p>+971 xx xxx xxx</p>
-                                                    <p>mail@sagemigrates.com</p>
+                                                    <p><a style={{"color": "inherit"}} href="tel:+971544429123">+971 544429123</a></p>
+                                                    <p><a style={{"color": "inherit"}} href="tel:+97143162995">+971 43162995 (LandLine)</a> </p>
+                                                    <p>info@sage-consultancy.com</p>
                                                 </div>
                                             </div>
                                         </div>
