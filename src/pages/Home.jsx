@@ -575,7 +575,7 @@ export default function Home() {
                 <section className="map-section map-style-9">
                     <div className="map-container">
                         <object style={{border: 0, height: '500px', width: '100%'}}
-                                data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d917.6681463542436!2d55.286050153055086!3d25.222793620035127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42e912bc6305%3A0x1e486da5f44c6a2b!2sDubai%20World%20Trade%20Centre!5e0!3m2!1sen!2sin!4v1753813032363!5m2!1sen!2sin"></object>
+                                data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.2129671903763!2d55.284276276082174!3d25.229750977689978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42ef4c315817%3A0x7f6075ad5cfaaf0d!2sBurj%20Al%20Salam!5e0!3m2!1sen!2sin!4v1757956342226!5m2!1sen!2sin"></object>
                     </div>
 
                 </section>
