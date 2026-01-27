@@ -4,7 +4,8 @@ const nextConfig = {
     output: 'export',
     distDir: 'docs',
     images: { unoptimized: true },
+    assetPrefix: '/docs/',
 };
 
 module.exports = nextConfig;
-export default nextConfig;
+
