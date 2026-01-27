@@ -34,6 +34,7 @@ function App() {
                     <Route path="/ireland" element={<Ireland />} />
                     <Route path="/newzealand" element={<NewZealand />} />
                     <Route path="/PrivacyPolicy" element={<PrivacyPolicy />} />
+                    <Route element={<Home/>} />
                 </Routes>
                 <Footer></Footer>
             </BrowserRouter>
