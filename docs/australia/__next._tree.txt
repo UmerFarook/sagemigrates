@@ -9,4 +9,4 @@
 :HL["/images/document.jpg","image"]
 :HL["/images/family.jpg","image"]
 :HL["/images/life.jpg","image"]
-0:{"buildId":"dCwXlIEmy6PW_GA33wBWh","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"australia","paramType":null,"paramKey":"australia","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"a2sbD_KJoLKkZE_OWrobz","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"australia","paramType":null,"paramKey":"australia","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
