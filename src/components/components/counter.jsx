@@ -15,7 +15,7 @@ export default function Counter () {
                                             <span className="currency"></span>5000<span className="duration">+</span>
                                         </h2>
                                     </div>
-                                    <p>Successful Canditaes</p>
+                                    <p>Successful Candidates</p>
                                 </div>
                             </div>
                         </div>
@@ -27,7 +27,7 @@ export default function Counter () {
                                             <span className="currency"></span>10<span className="duration">+</span>
                                         </h2>
                                     </div>
-                                    <p>Countires</p>
+                                    <p>Countries</p>
                                 </div>
                             </div>
                         </div>
