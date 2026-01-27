@@ -4,7 +4,8 @@ const nextConfig = {
     output: 'export',
     distDir: 'docs',
     images: { unoptimized: true },
-    assetPrefix: '/docs/',
+    basePath: '/sagemigrates',
+    assetPrefix: '/sagemigrates/',
 };
 
 module.exports = nextConfig;
