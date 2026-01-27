@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/docs//_next/:path+",
-        "destination": "/_next/:path+"
+        "source": "/sagemigrates//_next/:path+",
+        "destination": "/sagemigrates/_next/:path+"
       }
     ],
     "fallback": []
