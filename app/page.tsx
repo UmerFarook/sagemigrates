@@ -477,7 +477,7 @@ export default function Home() {const tabData = [
                                             <div className="contact-content">
                                                 <h4>Contact</h4>
                                                 <p><a style={{"color": "inherit"}} href="tel:+971544429123">+971 544429123</a></p>
-                                                <p><a style={{"color": "inherit"}} href="tel:+97143162995">+971 43162995 (LandLine)</a> </p>
+                                                <p><a style={{"color": "inherit"}} href="tel:+97143116555">+971 4 3116 555 (LandLine)</a> </p>
                                                 <p>info@sage-consultancy.com</p>
                                             </div>
                                         </div>
@@ -489,10 +489,12 @@ export default function Home() {const tabData = [
                                             </div>
                                             <div className="contact-content">
                                                 <h4>Address</h4>
-                                                <p>Burj Al Salam Tower, <br/>Suit no: 3601 - 23, <br/>Level 36 -
-                                                    Sheraton Grand Hotel, Sheikh Zayed Rd, <br/>World Trade Centre,
+                                                <p>  Burj Al salam Tower, <br/>
+                                                    Level 25, Grand Sheraton Hotel,<br/>
+                                                    Sheikh Zayed Road,<br/>
+                                                    World Trade Center,<br/>
+                                                    Dubai, UAE
                                                 </p>
-                                                <p>Dubai, UAE</p>
                                             </div>
                                         </div>
                                     </div>

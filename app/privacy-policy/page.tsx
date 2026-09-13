@@ -163,12 +163,15 @@ function Page() {
                                        any questions or concerns about this Privacy Policy or how we handle your
                                        personal data, please contact us at:</p><br/>
                                        <p><strong>SAGE CONSULTANCY</strong></p>
-                                       <div className="contact-content"><p>Burj Al Salam Tower, <br/>Suit
-                                           no: 3601 - 23, <br/>Level 36 - Sheraton Grand Hotel, Sheikh Zayed Rd, <br/>World
-                                           Trade Centre,</p><p>Dubai, UAE</p>
+                                       <div className="contact-content"> <p>  Burj Al salam Tower, <br/>
+                                           Level 25, Grand Sheraton Hotel,<br/>
+                                           Sheikh Zayed Road,<br/>
+                                           World Trade Center,<br/>
+                                           Dubai, UAE
+                                       </p>
                                            <div className="contact-content"><p><a
                                                href="tel:+971544429123" >+971 544429123</a></p>
-                                               <p><a href="tel:+97143162995" >+971 43162995
+                                               <p><a href="tel:+97143116555" >+971 4 3116 555
                                                    (LandLine)</a></p><p>info@sage-consultancy.com</p></div>
                                        </div>
                                    </div>
